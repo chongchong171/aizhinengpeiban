@@ -1,0 +1,9 @@
+{
+  "name": "saveDormitoryDecoration",
+  "version": "1.0.0",
+  "description": "保存宿舍装修配置",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

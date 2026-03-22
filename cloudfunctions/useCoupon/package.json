@@ -1,0 +1,11 @@
+{
+  "name": "useCoupon",
+  "version": "2.0.0",
+  "description": "使用优惠券 - 状态验证、过期检查、使用记录",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  },
+  "author": "玄枢",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "redeemCoupon",
+  "version": "2.0.0",
+  "description": "兑换优惠券 - 事务处理、防刷机制、积分扣减",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  },
+  "author": "玄枢",
+  "license": "MIT"
+}

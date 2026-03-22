@@ -1,0 +1,11 @@
+{
+  "name": "getUserCoupons",
+  "version": "2.0.0",
+  "description": "获取用户优惠券 - 状态筛选、过期检测、分类统计",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  },
+  "author": "玄枢",
+  "license": "MIT"
+}

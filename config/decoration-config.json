@@ -1,0 +1,556 @@
+{
+  "version": "1.0.0",
+  "updateDate": "2026-03-17",
+  "description": "女生宿舍装修系统 - 装饰品配置",
+  "furniture": [
+    {
+      "itemId": "furniture_bed_001",
+      "name": "粉色单人床",
+      "description": "温馨的粉色小床，给你甜甜的梦",
+      "price": 500,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "bed"
+    },
+    {
+      "itemId": "furniture_bed_002",
+      "name": "蓝色单人床",
+      "description": "清新的蓝色小床，宁静入眠",
+      "price": 500,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "bed"
+    },
+    {
+      "itemId": "furniture_bed_003",
+      "name": "紫色梦幻床",
+      "description": "浪漫的紫色床铺，少女心满满",
+      "price": 800,
+      "currency": "starlight",
+      "score": 15,
+      "rarity": "common",
+      "category": "bed"
+    },
+    {
+      "itemId": "furniture_bed_004",
+      "name": "白色公主床",
+      "description": "优雅的白色公主床，精致生活",
+      "price": 1200,
+      "currency": "starlight",
+      "score": 25,
+      "rarity": "uncommon",
+      "category": "bed"
+    },
+    {
+      "itemId": "furniture_bed_legendary_001",
+      "name": "水晶公主床",
+      "description": "闪耀的水晶床，晶钻专属，梦幻中的公主寝宫",
+      "price": 1000,
+      "currency": "crystal",
+      "score": 50,
+      "rarity": "legendary",
+      "category": "bed"
+    },
+    {
+      "itemId": "furniture_desk_001",
+      "name": "简约书桌",
+      "description": "干净简洁的学习桌，认真学习每一天",
+      "price": 300,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "desk"
+    },
+    {
+      "itemId": "furniture_desk_002",
+      "name": "粉色书桌",
+      "description": "可爱的粉色学习桌，学习也变得甜美",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "desk"
+    },
+    {
+      "itemId": "furniture_desk_003",
+      "name": "木质书桌",
+      "description": "天然木质书桌，文艺气息满满",
+      "price": 600,
+      "currency": "starlight",
+      "score": 12,
+      "rarity": "common",
+      "category": "desk"
+    },
+    {
+      "itemId": "furniture_desk_004",
+      "name": "欧式书桌",
+      "description": "典雅的欧式书桌，贵族学习体验",
+      "price": 1000,
+      "currency": "starlight",
+      "score": 20,
+      "rarity": "uncommon",
+      "category": "desk"
+    },
+    {
+      "itemId": "furniture_desk_legendary_001",
+      "name": "星钻书桌",
+      "description": "镶嵌星钻的奢华书桌，晶钻专属，学习的仪式感",
+      "price": 800,
+      "currency": "crystal",
+      "score": 40,
+      "rarity": "legendary",
+      "category": "desk"
+    },
+    {
+      "itemId": "furniture_chair_001",
+      "name": "舒适椅子",
+      "description": "柔软的坐垫，久坐不累",
+      "price": 200,
+      "currency": "starlight",
+      "score": 5,
+      "rarity": "common",
+      "category": "chair"
+    },
+    {
+      "itemId": "furniture_chair_002",
+      "name": "粉色椅子",
+      "description": "可爱的粉色椅子，搭配粉色书桌",
+      "price": 250,
+      "currency": "starlight",
+      "score": 6,
+      "rarity": "common",
+      "category": "chair"
+    },
+    {
+      "itemId": "furniture_chair_003",
+      "name": "旋转椅",
+      "description": "可旋转的办公椅，灵活方便",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "chair"
+    },
+    {
+      "itemId": "furniture_chair_004",
+      "name": "天鹅绒椅子",
+      "description": "高档天鹅绒材质，坐感奢华",
+      "price": 700,
+      "currency": "starlight",
+      "score": 15,
+      "rarity": "uncommon",
+      "category": "chair"
+    },
+    {
+      "itemId": "furniture_chair_legendary_001",
+      "name": "水晶王座",
+      "description": "如女王般的宝座，晶钻专属，尊贵无比",
+      "price": 600,
+      "currency": "crystal",
+      "score": 35,
+      "rarity": "legendary",
+      "category": "chair"
+    },
+    {
+      "itemId": "furniture_wardrobe_001",
+      "name": "简易衣柜",
+      "description": "基础款衣柜，收纳衣物",
+      "price": 400,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "wardrobe"
+    },
+    {
+      "itemId": "furniture_wardrobe_002",
+      "name": "粉色衣柜",
+      "description": "少女心衣柜，收纳美好",
+      "price": 600,
+      "currency": "starlight",
+      "score": 12,
+      "rarity": "common",
+      "category": "wardrobe"
+    },
+    {
+      "itemId": "furniture_wardrobe_003",
+      "name": "双门衣柜",
+      "description": "大容量双门衣柜，衣物再多也不怕",
+      "price": 900,
+      "currency": "starlight",
+      "score": 18,
+      "rarity": "uncommon",
+      "category": "wardrobe"
+    },
+    {
+      "itemId": "furniture_wardrobe_004",
+      "name": "欧式衣柜",
+      "description": "雕花欧式衣柜，艺术品般的收纳",
+      "price": 1500,
+      "currency": "starlight",
+      "score": 30,
+      "rarity": "rare",
+      "category": "wardrobe"
+    },
+    {
+      "itemId": "furniture_wardrobe_legendary_001",
+      "name": "水晶衣橱",
+      "description": "透明水晶衣橱，晶钻专属，展示你的时尚",
+      "price": 1200,
+      "currency": "crystal",
+      "score": 45,
+      "rarity": "legendary",
+      "category": "wardrobe"
+    },
+    {
+      "itemId": "furniture_lamp_001",
+      "name": "小台灯",
+      "description": "温暖的小台灯，照亮夜晚",
+      "price": 150,
+      "currency": "starlight",
+      "score": 5,
+      "rarity": "common",
+      "category": "lamp"
+    },
+    {
+      "itemId": "furniture_lamp_002",
+      "name": "粉色台灯",
+      "description": "可爱的粉色台灯，温馨陪伴",
+      "price": 200,
+      "currency": "starlight",
+      "score": 6,
+      "rarity": "common",
+      "category": "lamp"
+    },
+    {
+      "itemId": "furniture_lamp_003",
+      "name": "星空投影灯",
+      "description": "投影星空的浪漫灯，躺在床上看星星",
+      "price": 500,
+      "currency": "starlight",
+      "score": 15,
+      "rarity": "uncommon",
+      "category": "lamp"
+    },
+    {
+      "itemId": "furniture_lamp_004",
+      "name": "水晶吊灯",
+      "description": "华丽的水晶吊灯，照亮整个宿舍",
+      "price": 1000,
+      "currency": "starlight",
+      "score": 25,
+      "rarity": "rare",
+      "category": "lamp"
+    },
+    {
+      "itemId": "furniture_lamp_legendary_001",
+      "name": "极光夜灯",
+      "description": "梦幻极光效果，晶钻专属，每晚都是极光夜",
+      "price": 500,
+      "currency": "crystal",
+      "score": 30,
+      "rarity": "legendary",
+      "category": "lamp"
+    },
+    {
+      "itemId": "furniture_carpet_001",
+      "name": "小地毯",
+      "description": "柔软的小地毯，脚感舒适",
+      "price": 200,
+      "currency": "starlight",
+      "score": 5,
+      "rarity": "common",
+      "category": "carpet"
+    },
+    {
+      "itemId": "furniture_carpet_002",
+      "name": "粉色地毯",
+      "description": "毛茸茸的粉色地毯，少女心爆棚",
+      "price": 300,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "carpet"
+    },
+    {
+      "itemId": "furniture_carpet_003",
+      "name": "圆形地毯",
+      "description": "可爱的圆形地毯，温馨角落",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "carpet"
+    },
+    {
+      "itemId": "furniture_carpet_004",
+      "name": "羊毛地毯",
+      "description": "高档羊毛地毯，奢华脚感",
+      "price": 800,
+      "currency": "starlight",
+      "score": 18,
+      "rarity": "uncommon",
+      "category": "carpet"
+    },
+    {
+      "itemId": "furniture_carpet_legendary_001",
+      "name": "云朵地毯",
+      "description": "如踩云朵般的触感，晶钻专属，极致舒适",
+      "price": 600,
+      "currency": "crystal",
+      "score": 35,
+      "rarity": "legendary",
+      "category": "carpet"
+    },
+    {
+      "itemId": "furniture_plant_001",
+      "name": "小盆栽",
+      "description": "绿色小盆栽，增添生机",
+      "price": 100,
+      "currency": "starlight",
+      "score": 3,
+      "rarity": "common",
+      "category": "plant"
+    },
+    {
+      "itemId": "furniture_plant_002",
+      "name": "多肉植物",
+      "description": "可爱的多肉植物，萌化你的心",
+      "price": 150,
+      "currency": "starlight",
+      "score": 5,
+      "rarity": "common",
+      "category": "plant"
+    },
+    {
+      "itemId": "furniture_plant_003",
+      "name": "鲜花花瓶",
+      "description": "美丽的鲜花，芬芳满屋",
+      "price": 300,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "plant"
+    },
+    {
+      "itemId": "furniture_plant_004",
+      "name": "大型绿植",
+      "description": "大型观叶植物，天然氧吧",
+      "price": 500,
+      "currency": "starlight",
+      "score": 12,
+      "rarity": "uncommon",
+      "category": "plant"
+    },
+    {
+      "itemId": "furniture_plant_legendary_001",
+      "name": "水晶玫瑰",
+      "description": "永不凋谢的水晶玫瑰，晶钻专属，永恒的美丽",
+      "price": 400,
+      "currency": "crystal",
+      "score": 25,
+      "rarity": "legendary",
+      "category": "plant"
+    },
+    {
+      "itemId": "furniture_decoration_001",
+      "name": "照片墙",
+      "description": "记录美好时光的照片墙",
+      "price": 250,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_decoration_002",
+      "name": "挂饰串灯",
+      "description": "温馨的串灯挂饰，浪漫氛围",
+      "price": 350,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_decoration_003",
+      "name": "玩偶摆件",
+      "description": "可爱的玩偶，陪伴每一天",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_decoration_004",
+      "name": "香薰机",
+      "description": "芬芳香薰，舒缓身心",
+      "price": 600,
+      "currency": "starlight",
+      "score": 15,
+      "rarity": "uncommon",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_decoration_005",
+      "name": "音乐盒",
+      "description": "精致的音乐盒，美妙旋律",
+      "price": 700,
+      "currency": "starlight",
+      "score": 18,
+      "rarity": "uncommon",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_decoration_legendary_001",
+      "name": "星愿瓶",
+      "description": "装满星愿的魔法瓶，晶钻专属，许愿成真",
+      "price": 500,
+      "currency": "crystal",
+      "score": 30,
+      "rarity": "legendary",
+      "category": "decoration"
+    },
+    {
+      "itemId": "furniture_wall_001",
+      "name": "简约墙纸",
+      "description": "干净的简约墙纸，清新自然",
+      "price": 300,
+      "currency": "starlight",
+      "score": 8,
+      "rarity": "common",
+      "category": "wall"
+    },
+    {
+      "itemId": "furniture_wall_002",
+      "name": "粉色墙纸",
+      "description": "温柔的粉色墙纸，少女房间",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "wall"
+    },
+    {
+      "itemId": "furniture_wall_003",
+      "name": "星空墙纸",
+      "description": "梦幻星空墙纸，每晚睡在星空下",
+      "price": 600,
+      "currency": "starlight",
+      "score": 15,
+      "rarity": "uncommon",
+      "category": "wall"
+    },
+    {
+      "itemId": "furniture_wall_004",
+      "name": "欧式壁纸",
+      "description": "奢华欧式壁纸，宫殿般的感觉",
+      "price": 1000,
+      "currency": "starlight",
+      "score": 22,
+      "rarity": "rare",
+      "category": "wall"
+    },
+    {
+      "itemId": "furniture_wall_legendary_001",
+      "name": "极光墙纸",
+      "description": "动态极光效果墙纸，晶钻专属，变幻莫测",
+      "price": 800,
+      "currency": "crystal",
+      "score": 40,
+      "rarity": "legendary",
+      "category": "wall"
+    },
+    {
+      "itemId": "furniture_storage_001",
+      "name": "收纳盒",
+      "description": "实用收纳盒，整理小物",
+      "price": 100,
+      "currency": "starlight",
+      "score": 3,
+      "rarity": "common",
+      "category": "storage"
+    },
+    {
+      "itemId": "furniture_storage_002",
+      "name": "粉色收纳箱",
+      "description": "可爱的收纳箱，整齐又美观",
+      "price": 200,
+      "currency": "starlight",
+      "score": 5,
+      "rarity": "common",
+      "category": "storage"
+    },
+    {
+      "itemId": "furniture_storage_003",
+      "name": "多层置物架",
+      "description": "多层置物架，充分利用空间",
+      "price": 400,
+      "currency": "starlight",
+      "score": 10,
+      "rarity": "common",
+      "category": "storage"
+    },
+    {
+      "itemId": "furniture_storage_004",
+      "name": "梳妆台",
+      "description": "精致梳妆台，变美必备",
+      "price": 800,
+      "currency": "starlight",
+      "score": 20,
+      "rarity": "uncommon",
+      "category": "storage"
+    },
+    {
+      "itemId": "furniture_storage_legendary_001",
+      "name": "水晶首饰盒",
+      "description": "闪耀的水晶首饰盒，晶钻专属，珍藏美好",
+      "price": 600,
+      "currency": "crystal",
+      "score": 35,
+      "rarity": "legendary",
+      "category": "storage"
+    }
+  ],
+  "rarityConfig": {
+    "common": {
+      "name": "普通",
+      "color": "#999999",
+      "dropRate": 0.6,
+      "maxScore": 15
+    },
+    "uncommon": {
+      "name": "稀有",
+      "color": "#4CAF50",
+      "dropRate": 0.25,
+      "maxScore": 20
+    },
+    "rare": {
+      "name": "史诗",
+      "color": "#FF9800",
+      "dropRate": 0.1,
+      "maxScore": 30
+    },
+    "legendary": {
+      "name": "传说",
+      "color": "#FF1493",
+      "dropRate": 0.05,
+      "maxScore": 50,
+      "currencyOnly": "crystal"
+    }
+  },
+  "categoryConfig": {
+    "bed": "床铺",
+    "desk": "书桌",
+    "chair": "椅子",
+    "wardrobe": "衣柜",
+    "lamp": "灯具",
+    "carpet": "地毯",
+    "plant": "植物",
+    "decoration": "装饰",
+    "wall": "墙纸",
+    "storage": "收纳"
+  }
+}

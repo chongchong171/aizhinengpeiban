@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/naming/index",
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/highlights/highlights",
+    "pages/stories/stories",
+    "pages/relax/relax",
+    "pages/relax/breath/breath",
+    "pages/relax/body-scan/body-scan",
+    "pages/relax/imagination/imagination",
+    "pages/relax/quick/quick",
+    "pages/read/read",
+    "pages/recite/recite",
+    "pages/profile/profile",
+    "pages/custom-read/index",
+    "pages/dormitory/index/index",
+    "pages/dormitory/create/index",
+    "pages/dormitory/space/index",
+    "pages/dormitory/invite/index",
+    "pages/dormitory/goodnight/index",
+    "pages/decoration-shop/decoration-shop",
+    "pages/dormitoryRoom/dormitoryRoom",
+    "pages/decorationShop/decorationShop",
+    "pages/decorationRanking/decorationRanking",
+    "pages/pointsShop/pointsShop",
+    "pages/myCoupons/myCoupons",
+    "pages/myPoints/myPoints",
+    "pages/tasks/tasks"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF6B81",
+    "navigationBarTitleText": "瓜瓜陪伴",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFF5F6"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

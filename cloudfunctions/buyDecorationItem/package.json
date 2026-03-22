@@ -1,0 +1,9 @@
+{
+  "name": "buyDecorationItem",
+  "version": "1.0.0",
+  "description": "购买装饰品",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

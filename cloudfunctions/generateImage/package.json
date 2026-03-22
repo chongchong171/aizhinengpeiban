@@ -1,0 +1,10 @@
+{
+  "name": "generateImage",
+  "version": "1.0.0",
+  "description": "晚安图片生成云函数 - 通义万相 wanx-v1",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3",
+    "node-fetch": "^2.6.7"
+  }
+}

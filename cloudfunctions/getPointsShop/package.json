@@ -1,0 +1,11 @@
+{
+  "name": "getPointsShop",
+  "version": "2.0.0",
+  "description": "获取积分商城数据 - 用户积分、优惠券配置、兑换状态",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  },
+  "author": "玄枢",
+  "license": "MIT"
+}

@@ -1,0 +1,158 @@
+/**
+ * 今日总结页面样式
+ */
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #FFF5F6 0%, #FFE4E8 100%);
+  padding: 30rpx;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40rpx;
+  padding: 30rpx;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 24rpx;
+}
+
+.page-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #333;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.page-date {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.section {
+  margin-bottom: 30rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20rpx;
+  padding-left: 10rpx;
+}
+
+/* 心情卡片 */
+.mood-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 24rpx;
+  padding: 40rpx;
+  box-shadow: 0 4rpx 16rpx rgba(255, 107, 129, 0.1);
+}
+
+.mood-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mood-emoji {
+  font-size: 120rpx;
+  margin-bottom: 20rpx;
+}
+
+.mood-text {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 500;
+}
+
+/* 亮点列表 */
+.highlights-list {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 24rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(255, 107, 129, 0.1);
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid rgba(255, 107, 129, 0.1);
+}
+
+.highlight-item:last-child {
+  border-bottom: none;
+}
+
+.highlight-icon {
+  font-size: 40rpx;
+  margin-right: 20rpx;
+}
+
+.highlight-text {
+  font-size: 28rpx;
+  color: #333;
+  flex: 1;
+}
+
+.add-highlight {
+  padding: 20rpx 0;
+  text-align: center;
+}
+
+.add-text {
+  font-size: 28rpx;
+  color: #FF6B81;
+}
+
+/* 日记卡片 */
+.diary-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 24rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(255, 107, 129, 0.1);
+}
+
+.diary-input {
+  width: 100%;
+  min-height: 200rpx;
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.diary-actions {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.save-btn {
+  background: linear-gradient(135deg, #FF6B81 0%, #FF8E9E 100%);
+  color: #fff;
+  border: none;
+  border-radius: 40rpx;
+  padding: 20rpx 60rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+/* 鼓励卡片 */
+.encouragement-card {
+  background: linear-gradient(135deg, #FFE4E8 0%, #FFD6DE 100%);
+  border-radius: 24rpx;
+  padding: 40rpx 30rpx;
+  box-shadow: 0 4rpx 16rpx rgba(255, 107, 129, 0.15);
+}
+
+.encouragement-text {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 1.8;
+  text-align: center;
+  display: block;
+}

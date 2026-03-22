@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "updateDate": "2026-03-17",
+  "description": "女生宿舍装修系统 - 宿舍等级配置",
+  "levels": [
+    {
+      "level": 1,
+      "requiredScore": 0,
+      "title": "简朴小屋",
+      "description": "刚刚开始的宿舍生活，简单却温馨",
+      "icon": "🏠",
+      "backgroundColor": "#F5F5F5",
+      "unlockFeatures": ["基础装饰", "留言板"]
+    },
+    {
+      "level": 2,
+      "requiredScore": 100,
+      "title": "温馨小窝",
+      "description": "用心装扮的小空间，充满温暖",
+      "icon": "🏡",
+      "backgroundColor": "#FFE4E1",
+      "unlockFeatures": ["更多装饰位", "宿舍相册"]
+    },
+    {
+      "level": 3,
+      "requiredScore": 300,
+      "title": "舒适宿舍",
+      "description": "舒适宜人的居住环境，让人放松",
+      "icon": "🏘️",
+      "backgroundColor": "#FFDAB9",
+      "unlockFeatures": ["高级装饰", "背景音乐"]
+    },
+    {
+      "level": 4,
+      "requiredScore": 600,
+      "title": "精致公寓",
+      "description": "精致有格调的生活空间",
+      "icon": "🏢",
+      "backgroundColor": "#E6E6FA",
+      "unlockFeatures": ["专属边框", "访客功能"]
+    },
+    {
+      "level": 5,
+      "requiredScore": 1000,
+      "title": "豪华宫殿",
+      "description": "奢华典雅，如宫殿般华丽",
+      "icon": "🏰",
+      "backgroundColor": "#DDA0DD",
+      "unlockFeatures": ["晶钻装饰", "宿舍名片"]
+    },
+    {
+      "level": 6,
+      "requiredScore": 1500,
+      "title": "梦幻城堡",
+      "description": "梦幻般的城堡，童话成真",
+      "icon": "🏯",
+      "backgroundColor": "#FFB6C1",
+      "unlockFeatures": ["动态效果", "专属称号"]
+    },
+    {
+      "level": 7,
+      "requiredScore": 2000,
+      "title": "童话王国",
+      "description": "最高荣誉，如童话中的王国",
+      "icon": "👑",
+      "backgroundColor": "#FFD700",
+      "unlockFeatures": ["全服展示", "王国特权"]
+    }
+  ],
+  "scoreRules": {
+    "decorationValue": {
+      "weight": 0.3,
+      "description": "装饰品总价值占比 30%"
+    },
+    "rarity": {
+      "weight": 0.3,
+      "description": "装饰品稀有度占比 30%"
+    },
+    "quantity": {
+      "weight": 0.2,
+      "description": "装饰品数量占比 20%"
+    },
+    "coordination": {
+      "weight": 0.2,
+      "description": "搭配协调性占比 20%"
+    }
+  },
+  "levelUpRewards": [
+    {
+      "level": 2,
+      "rewards": [
+        {"type": "starlight", "amount": 100},
+        {"type": "title", "name": "温馨管家"}
+      ]
+    },
+    {
+      "level": 3,
+      "rewards": [
+        {"type": "starlight", "amount": 200},
+        {"type": "title", "name": "舒适达人"}
+      ]
+    },
+    {
+      "level": 4,
+      "rewards": [
+        {"type": "starlight", "amount": 300},
+        {"type": "crystal", "amount": 50},
+        {"type": "title", "name": "精致生活家"}
+      ]
+    },
+    {
+      "level": 5,
+      "rewards": [
+        {"type": "starlight", "amount": 500},
+        {"type": "crystal", "amount": 100},
+        {"type": "title", "name": "豪华领主"}
+      ]
+    },
+    {
+      "level": 6,
+      "rewards": [
+        {"type": "starlight", "amount": 800},
+        {"type": "crystal", "amount": 200},
+        {"type": "title", "name": "梦幻设计师"}
+      ]
+    },
+    {
+      "level": 7,
+      "rewards": [
+        {"type": "starlight", "amount": 1500},
+        {"type": "crystal", "amount": 500},
+        {"type": "title", "name": "王国缔造者"}
+      ]
+    }
+  ],
+  "dailyPassiveIncome": [
+    {"level": 1, "starlight": 5},
+    {"level": 2, "starlight": 10},
+    {"level": 3, "starlight": 20},
+    {"level": 4, "starlight": 35},
+    {"level": 5, "starlight": 50},
+    {"level": 6, "starlight": 75},
+    {"level": 7, "starlight": 100}
+  ]
+}
